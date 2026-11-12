@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1020">
+    <title>Contact | Sreedev's Portfolio</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Crect width=%27100%27 height=%27100%27 rx=%2722%27 fill=%27%230b1020%27/%3E%3Ctext x=%2750%27 y=%2774%27 font-size=%2770%27 font-weight=%27bold%27 text-anchor=%27middle%27 fill=%27%2322d3ee%27 font-family=%27Arial%27%3ES%3C/text%3E%3C/svg%3E">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">Sreedev<span>.</span></a>
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html" aria-current="page">Contact</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section>
+            <p class="eyebrow">Let's connect</p>
+            <h1>Contact Me</h1>
+            <p>Want to say hello or ask something? Send me a message using the form or email me directly.</p>
+        </section>
+
+        <section class="contact-layout">
+            <!-- Demo only: mailto opens the visitor's email application.
+                 For a working online form, connect a backend or form service. -->
+            <div class="card">
+                <form class="contact-form" action="mailto:sreedev27122007@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Your Name</label>
+                    <input id="name" type="text" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Your Email</label>
+                    <input id="email" type="email" name="email" placeholder="Enter your email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message" rows="5" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                    <p class="form-note">This opens your email app to send the message.</p>
+                </form>
+            </div>
+
+            <aside class="card contact-info">
+                <h3>Contact Details</h3>
+                <p><strong>Email:</strong> <a href="mailto:sreedev27122007@gmail.com" class="mail-link">sreedev27122007@gmail.com</a></p>
+                <p><strong>Studying at:</strong> Asian School of Business</p>
+
+                <div class="social-links">
+                    <a href="mailto:sreedev27122007@gmail.com">Email Me</a>
+                    <!-- Optional: add your own profile links when you have them, e.g.
+                    <a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    <a href="https://www.instagram.com/your-username" target="_blank" rel="noopener noreferrer">Instagram</a> -->
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sreedev | BBA, Asian School of Business</p>
+    </footer>
+</body>
+</html>
